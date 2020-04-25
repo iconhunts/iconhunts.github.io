@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="">
+  <title>iconHunts</title>
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script> 
+</head>
+<body>
+	<!-- header -->
+	<header>
+	  	<div class="nav">
+	  	  <div class="nav_container">
+	  		<div class="nav_logo" onclick="location='index.html'">iconHunts</div>
+	  		<form class="nav_search no_highlight">
+	  		  <div class="nav_icon">
+	  		  	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+	  		  </div>
+	  		  <input type="text" name="cari" class="search-input" placeholder="Telusuri" autocomplete="off">
+	  		</form>
+	  		<div class="menu no_highlight">
+	  		  <div class="menu_item active"><div uk-icon="upload"></div><span class="text">Upload</span></div>
+	  		  <div class="dropdown">
+		  	    <div class="menu_item">
+		  	    	<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+		  	    </div>
+		  	    <div class="dropdown_content uk-width-small uk-height-uk-height-max-medium scrollbar" uk-dropdown="mode: click; pos: bottom-right" uk-overflow-auto>
+		  	      <div class="dropdown_content_item"><span>Thankful</span></div>
+		  	      <div class="dropdown_content_item"><a href="https://xd.iconHunts.co" target="_blank" rel="noopener noreferrer">For designers</a></div>
+		  	      <div class="dropdown_content_item"><a href="https://twitter.com/iconHunts_co" target="_blank" rel="noopener noreferrer">Twitter</a></div>
+		  	      <div class="dropdown_content_item"><a href="https://www.facebook.com/iconHunts.co/" target="_blank" rel="noopener noreferrer">Facebook</a></div>
+		  	      <div class="dropdown_content_item"><a href="https://blog.iconHunts.co" target="_blank" rel="noopener noreferrer">Blog</a></div>
+		  	      <div class="dropdown_content_item"><span>License</span></div>
+		  	    </div>
+	  		  </div>
+	  		  <a href="profile.html"><div class="menu_item"><div uk-icon="icon: happy"></div><span class="text">NineOne91</span></div></a>
+	  		</div>
+	  	  </div>
+	  	</div>
+	</header>
+	<!-- End header -->
+
+	<div class="uk-container uk-marginku">
+  	  <div class=" uk-position-relative uk-visible-toggle uk-light uk-padding-small" tabindex="-1" uk-slider="finite: true; autoplay: false">
+  	  	<!-- Menue -->
+	    <ul class="uk-slider-items uk-child-width-auto uk-color-black uk-icons uk-grid uk-flex uk-flex-center">
+	      <li><div class="active">All</div></li>
+	      <li><div>Animation</div></li>
+	      <li><div>Branding</div></li>
+	      <li><div>Illustration</div></li>
+	      <li><div>Mobile</div></li>
+	      <li><div>Print</div></li>
+	      <li><div>Product Design</div></li>
+	      <li><div>Typography</div></li>
+	      <li><div>Web Design</div></li>
+	    </ul>
+  		<!-- Slidere -->
+	    <a class="uk-position-center-left uk-position-small uk-hidden-xhover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+	    <a class="uk-position-center-right uk-position-small uk-hidden-xhover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+  	  </div>
+	  <hr class="uk-divider-icon ku-hr">
+	  <div class="uk-flex uk-flex-center flexku flexL" id="demo">
+	  	<!-- <?php for ($i=0; $i < 12; $i++) { ?>
+	    <div class="uk-card uk-padding-remove uk-card-body uk-margin-left">
+	      <a href="icon.html">
+		    <div class="icons_card uk-card uk-card-hover">
+		      <div class="icons_grid">
+		        <div class="icon_item">
+		          <img src="images/icon.png">
+		        </div>
+		        <div class="icon_item">
+		          <div class="icons_item">
+		          	<img src="images/icon.png">
+		          </div>
+		          <div class="icons_item">
+		          	<img src="images/icon.png">
+		          </div>
+		          <div class="icons_item">
+		          	<img src="images/icon.png">
+		          </div>
+		          <div class="icons_item">
+		          	<img src="images/icon.png">
+		          </div>
+		        </div>
+		      </div>
+		      <div class="title">Cloud Hosting</div>
+		      <div class="item_more">NineOne91 • 1,569 icons</div>
+		    </div>
+		  </a>
+	    </div>
+		<?php } ?> -->
+	  </div>
+	  <div class="uk-card uk-card-body uk-padding-small-top uk-flex uk-flex-center">
+	    <button class="uk-button uk-button-primary uk-border-pill">Icons Lainnya</button>
+	  </div>
+	</div>
+
+
+  	<!-- Footer  -->
+  	<div class="uk-margin-medium-top">
+  	  <div class="uk-section uk-section-muted uk-padding-small">
+	    <div class="uk-container">
+	        <div class="footer footer_top">
+	          <a href="#">For designers </a> • 
+	          <a href="#">Blog </a> • 
+	          <a href="#">Instagram </a> • 
+	          <a href="#">Twitter </a> • 
+	          <a href="#">Facebook </a> • 
+	          <a href="#">License</a>
+	        </div>
+	        <div class="footer footer_bottom">© 2020 · Ibrahim Attamimi & Raharja.Corp</div>
+	    </div>
+	  </div>
+	</div>
+  	<!-- End Footer  -->
+	<script>
+		let str = "";
+
+		for (let i = 0; i < 12; i++) {
+			str += "<div class='uk-card uk-padding-remove uk-card-body uk-margin-left'>\
+						<a href='icon.html'>\
+							<div class='icons_card uk-card uk-card-hover'>\
+								<div class='icons_grid'>\
+									<div class='icon_item'>\
+										<img src='images/icon.png'>\
+									</div>\
+									<div class='icon_item'>\
+										<div class='icons_item'>\
+											<img src='images/icon.png'>\
+										</div>\
+										<div class='icons_item'>\
+											<img src='images/icon.png'>\
+										</div>\
+										<div class='icons_item'>\
+											<img src='images/icon.png'>\
+										</div>\
+										<div class='icons_item'>\
+											<img src='images/icon.png'>\
+										</div>\
+									</div>\
+								</div>\
+								<div class='title'>Cloud Hosting</div>\
+								<div class='item_more'>NineOne91 • 1,569 icons</div>\
+							</div>\
+						</a>\
+					</div>";
+		} document.getElementById('demo').innerHTML = str;
+	</script>
+</body>
+</html>

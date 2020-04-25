@@ -1,0 +1,21 @@
+<svg width="1123" height="224" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <rect id="a" width="1123" height="224" rx="14"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <mask id="b" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <g mask="url(#b)">
+      <g transform="translate(-11 -25)">
+        <path d="M855.328 198.711c32.438 1.465 40.206-38.88 72.9-24.676 14.997 6.516 21.197 14.443 53.772 14.443V227H854l1.328-28.289z" fill="#EDF2F7"/>
+        <circle stroke="#EDF2F7" stroke-width="5" stroke-linecap="square" stroke-linejoin="round" cx="933.5" cy="37.5" r="37.5"/>
+        <path fill="#EDF2F7" fill-rule="nonzero" d="M1154 139h-78v-30h78z"/>
+        <path d="M119.148 125.125c0-30.367 16.205-49.868 38.622-61.333a70.092 70.092 0 0 1 13.744-5.292l9.184 34.273c-12.153 3.256-21.637 12.799-24.872 25.031a35.633 35.633 0 0 0-1.138 7.321h-35.54z" fill="#EDF2F7"/>
+        <path d="M119 131.5h34.5" stroke="#EDF2F7" stroke-width="3"/>
+        <circle fill="#EDF2F7" fill-rule="nonzero" cx="13.5" cy="176.5" r="13.5"/>
+        <path d="M298 227a36.997 36.997 0 0 1-18.5 32.044 37.005 37.005 0 0 1-37 0A36.997 36.997 0 0 1 224 227 36.997 36.997 0 0 1 261 190v37h37z" fill="#EDF2F7"/>
+      </g>
+    </g>
+  </g>
+</svg>
